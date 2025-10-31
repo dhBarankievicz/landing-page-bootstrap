@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="description"
+    content="Landing page da BootWorks, agência de tecnologia e inovação. Conheça nossos serviços e cadastre-se para novidades.">
+  <title>BootWorks | Landing Page</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg  bg-preto fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">BootWorks</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="bgTop">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6">
+
+            <h2>Seja muito bem-vindo!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere faucibus neque vitae fringilla.
+              Maecenas aliquet aliquam cursus. Vivamus tempor convallis interdum. Pellentesque venenatis iaculis quam.
+              Donec nisl risus, volutpat id turpis pretium, euismod malesuada nibh. Sed eleifend quam augue, sagittis
+              varius metus condimentum in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+              inceptos himenaeos.</p>
+          </div>
+          <div class="col-md-6">
+
+            <form onsubmit="alert('Email cadastrado com sucesso!'); return false;">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Quero receber atualizações</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Insira seu email" required>
+                <small id="emailHelp" class="form-text text-muted">Nós nunca compartilhamos seu email com
+                  terceiros.</small>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chamada">
+      <div class="container">
+        <h2 class="text-center"><i class="fa-solid fa-circle-arrow-down" style="color: #09da1b;"></i></h2>
+      </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <div class="container">
+        <h2 style="font-size: 25px; color:#888;" class="text-center">Sobre</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia euismod risus, at volutpat enim
+          interdum non. Curabitur vehicula, metus a dignissim tincidunt, sem lorem facilisis arcu, vel interdum sapien
+          odio nec metus. Ut vel dui sit amet felis sollicitudin tincidunt. Maecenas et ullamcorper metus. Nam eget sem
+          sed sapien pharetra iaculis. Nulla ac gravida turpis, vel varius neque. Phasellus eget nunc ut ligula
+          sollicitudin volutpat id sit amet sapien. Fusce convallis sit amet magna sed cursus.
+
+          Pellentesque convallis dui sed ligula iaculis, ut dictum magna tincidunt. Nunc efficitur orci a nisi suscipit,
+          ac malesuada eros tempus. Donec auctor...</p>
+
+        <button style="border: 0;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"
+          id="sm">Saiba mais</button>
+
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Nossa História</h4>
+              </div>
+              <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia euismod risus, at volutpat
+                  enim interdum non. Curabitur vehicula, metus a dignissim tincidunt, sem lorem facilisis arcu, vel
+                  interdum sapien odio nec metus. Ut vel dui sit amet felis sollicitudin tincidunt. Maecenas et
+                  ullamcorper metus. Nam eget sem sed sapien pharetra iaculis. Nulla ac gravida turpis, vel varius
+                  neque.
+                  Phasellus eget nunc ut ligula sollicitudin volutpat id sit amet sapien. Fusce convallis sit amet magna
+                  sed cursus
+                  Pellentesque convallis dui sed ligula iaculis, ut dictum magna tincidunt. Nunc efficitur orci a nisi
+                  suscipit, ac malesuada eros tempus. Donec auctor, odio sed porttitor luctus, erat augue dapibus
+                  libero,
+                  a placerat augue ante vel ante. Nam id diam id turpis viverra dapibus. Aliquam erat volutpat. Donec
+                  malesuada, leo at tincidunt cursus, justo enim varius mi, ac bibendum tortor felis ut justo. Nulla
+                  facilisi. Suspendisse potenti. Sed viverra nisi justo, at auctor nulla fermentum ac
+                  .</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="diferenciais">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-12 text-center">
+            <i class="fa-solid fa-user fa-xl" style="color: #888888;"></i>
+            <br>
+            <p>Sed auctor, sapien ac lobortis maximus, ante metus tempor sem, sit amet ultricies purus felis at lectus.
+              Donec volutpat ex in est aliquet, sed scelerisque tortor sollicitudin. Pellentesque scelerisque lorem sed
+              urna faucibus, non tristique magna iaculis.</p>
+          </div>
+          <div class="col-md-4 col-12 text-center">
+            <i class="fa-solid fa-comment fa-xl" style="color: #888888;"></i>
+            <p>Sed auctor, sapien ac lobortis maximus, ante metus tempor sem, sit amet ultricies purus felis at lectus.
+              Donec volutpat ex in est aliquet, sed scelerisque tortor sollicitudin. Pellentesque scelerisque lorem sed
+              urna faucibus, non tristique magna iaculis.</p>
+          </div>
+          <div class="col-md-4 col-12 text-center">
+            <i class="fa-solid fa-truck-fast fa-xl" style="color: #888888;"></i>
+            <p>Sed auctor, sapien ac lobortis maximus, ante metus tempor sem, sit amet ultricies purus felis at lectus.
+              Donec volutpat ex in est aliquet, sed scelerisque tortor sollicitudin. Pellentesque scelerisque lorem sed
+              urna faucibus, non tristique magna iaculis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="convite">
+      <div class="container">
+        <form action="">
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <h2 style="font-size: 17px; color:rgb(9, 218, 27); padding: 10px 0;"> <i class="fa-regular fa-bell fa-xl"
+                  style="color:rgb(9, 218, 27);"></i> Participe da nossa lista e não perca nenhuma novidade</h2>
+            </div>
+            <div class="col-md-6 text-right">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                </div>
+                <input type="text" class="form-control" aria-label="Default"
+                  aria-describedby="inputGroup-sizing-default" placeholder="Insira seu email">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="contato" id="contato">
+      <div class="container">
+        <h2 class="text-center" style="color: #888888; font-size: 25px;">Entre em Contato</h2>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Insira seu nome" aria-label="Username"
+            aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Insira seu email" aria-label="Recipient's username"
+            aria-describedby="basic-addon2">
+        </div>
+        <textarea class="form-control" aria-label="With textarea" placeholder="Insira sua mensagem"></textarea>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <h2 style="color:#ffff; font-size: 25px;">Links Uteis</h2>
+          <ul>
+            <li><a href="#">Facebook </a><i class="fa-brands fa-facebook" style="color: #ffffff;margin-right: 45px;"></i>
+            </li>
+            <li><a href="#">Instagram </a><i class="fa-brands fa-instagram"
+                style="color: #ffffff; margin-right: 45px;"></i></li>
+            <li><a href="#">Whattsapp </a><i class="fa-brands fa-whatsapp"
+                style="color: #ffffff; margin-right: 40px;"></i></li>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <p style="color:#ffff;" class="text-center">Todos os direitos reservados!</p>
+          <p style="color:#ffff;" class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            lacinia euismod risus, at volutpat
+            enim interdum non. Curabitur vehicula, metus a dignissim tincidunt, sem lorem facilisis arcu, vel
+            interdum sapien odio nec metus.</p>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- jQuery para Bootstrap 4 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

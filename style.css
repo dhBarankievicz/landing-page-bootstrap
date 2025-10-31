@@ -1,0 +1,163 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bg-preto {
+    background-color: rgb(29, 28, 28);
+}
+.nav-link, .navbar-brand{
+    color:rgb(9, 218, 27);
+    margin: 0 10px;
+}
+.nav-link:hover, .navbar-brand:hover{
+    color:  rgb(9, 190, 24);
+}
+
+.navbar-toggler{
+    border: 2px solid rgb(9, 218, 27)
+}
+.navbar-toggler-icon{
+    background-image: url(img/menu.png);     
+}
+.col-md-6{
+    color:white;
+    z-index: 2;
+}
+.text-muted{
+    color:white !important
+}
+
+.modal-header button.close{
+    padding: 0;
+    margin: 0
+}
+.col-md-4.col-12.text-center p{
+    margin: 20px;
+    padding: 5px 0;
+    border-top: 3px dotted #ccc;
+}
+/***************ESTILOS PROPRIOS***************************/
+.bgTop{
+    width: 100%;
+    min-height: 500px;
+    background-image: url(img/bg_parallax.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 56px;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgb(0,0,0,0.8);
+    z-index: 1;
+}
+.col-md-6{
+   padding: 0 25px;
+}
+button[type=submit]{
+    background-color:  rgb(9, 218, 27);
+    border: none;
+    margin: 0 2%;
+}
+
+button[type=submit]:hover, .btn-primary:hover{
+    background-color:  rgb(9, 190, 24);
+
+}
+
+.btn-primary{
+    background-color:  rgb(9, 218, 27);
+}
+h2 i{
+    font-size: 30px;
+}
+
+section.chamada{
+    background-color: rgb(29, 28, 28);
+
+    padding: 2px 0;
+}
+
+section.sobre{
+    padding: 50px 0;
+}
+section.diferenciais{
+    padding: 30px 0;
+}
+.convite{
+    background-color: rgb(29, 28, 28);
+
+    padding-top: 20px;
+    padding-inline: 20px;
+}
+section.contato{
+    padding: 50px 2%;
+    text-align: center;
+}
+section.contato input, section.contato textarea{
+    max-width: 700px;
+    margin: 0 auto;
+}
+section.contato textarea{
+    height: 200px;
+    resize: none;
+    margin-bottom: 15px;
+}
+footer{
+    background-color: rgb(29, 28, 28);
+    padding: 30px 0;
+}
+footer ul{
+    list-style-type: none;
+}
+footer a{
+    color:rgb(9, 218, 27)
+}
+footer a:hover{
+    color:rgb(9, 190, 24)
+}
+footer li{
+    text-align: center;
+}
+input:focus, textarea:focus{
+    border: 0;
+    border:1px ridge rgb(9, 190, 24) !important;
+}
+
+/**********************************************************/
+    @media screen and (max-width:990px){
+        .navbar-nav{
+            margin-top: 20px;
+        }
+        .nav-link{
+            text-align: center;
+            border-top: 1px solid white;
+        }
+        label{
+            margin-top: 30px;
+        }
+
+       
+    }
+
+    @media screen and (max-width:768px){
+        section.convite input[type=text]{
+            width: 100%;
+        }
+        .convite button{
+            margin: 10px auto;
+        }
+    }
