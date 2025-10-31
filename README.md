@@ -65,17 +65,6 @@ Durante o desenvolvimento deste projeto, aprimorei meus conhecimentos em:
 - Implementação de **modais dinâmicos** e botões com **efeitos hover**  
 - Estruturação de páginas com foco em **experiência do usuário (UX)**  
 
-Exemplo de estilização do botão com hover:
-```css
-button[type=submit] {
-  background-color: rgb(9, 218, 27);
-  border: none;
-}
-
-button[type=submit]:hover {
-  background-color: rgb(9, 190, 24);
-}```
-
 ## Autor
 
 **👨‍💻 Douglas Barankievicz**  
