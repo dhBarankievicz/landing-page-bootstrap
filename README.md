@@ -75,3 +75,10 @@ button[type=submit] {
 button[type=submit]:hover {
   background-color: rgb(9, 190, 24);
 }
+
+## Autor
+
+**👨‍💻 Douglas Barankievicz**  
+
+🔗 [GitHub](https://github.com/dhBarankievicz)  
+🔗 [LinkedIn](https://linkedin.com/in/douglas-barankievicz-a42132358)
