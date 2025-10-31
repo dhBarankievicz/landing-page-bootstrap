@@ -74,7 +74,7 @@ button[type=submit] {
 
 button[type=submit]:hover {
   background-color: rgb(9, 190, 24);
-}
+}```
 
 ## Autor
 
