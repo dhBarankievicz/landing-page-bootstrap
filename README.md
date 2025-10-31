@@ -40,7 +40,7 @@ A página inclui:
 
 ### Links
 
-- **Site ao vivo:** [https://SEU-LINK-DE-DEPLOY-AQUI](https://SEU-LINK-DE-DEPLOY-AQUI)  
+- **Site ao vivo:** [https://dhbarankievicz.github.io/landing-page-bootstrap/](https://dhbarankievicz.github.io/landing-page-bootstrap/)  
 - **Solução no GitHub:** [https://github.com/dhBarankievicz/anding-page-bootstrap](https://github.com/dhBarankievicz/landing-page-bootstrap)  
 
 ---
